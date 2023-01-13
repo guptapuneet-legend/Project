@@ -1,0 +1,392 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/************************************* Main Heading *******************************************/
+
+.container {
+  margin: 50px auto;
+  text-align: center;
+}
+
+.main-heading {
+  font-size: 27px;
+  font-weight: 300;
+}
+
+.sub-heading {
+  font-size: 19px;
+  font-weight: 100;
+}
+
+h1::first-letter {
+  font-size: 34px;
+}
+
+h1::after {
+  content: "A";
+  font-size: 34px;
+}
+
+/************************************* Globe *******************************************/
+
+.globe {
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 50px;
+  height: 220px;
+}
+
+.globe--img {
+  position: absolute;
+  left: 555px;
+}
+
+.lang--1 {
+  position: absolute;
+  top: 5px;
+  left: 470px;
+}
+
+.lang--2 {
+  position: absolute;
+  top: 60px;
+  left: 440px;
+}
+
+.lang--3 {
+  position: absolute;
+  top: 112px;
+  left: 420px;
+}
+
+.lang--4 {
+  position: absolute;
+  top: 165px;
+  left: 450px;
+}
+
+.lang--5 {
+  position: absolute;
+  top: 220px;
+  left: 470px;
+}
+
+.lang--6 {
+  position: absolute;
+  top: 5px;
+  left: 760px;
+}
+
+.lang--7 {
+  position: absolute;
+  top: 60px;
+  left: 785px;
+}
+
+.lang--8 {
+  position: absolute;
+  top: 110px;
+  left: 800px;
+}
+
+.lang--9 {
+  position: absolute;
+  top: 162px;
+  left: 800px;
+}
+
+.lang--10 {
+  position: absolute;
+  top: 220px;
+  left: 770px;
+}
+
+span {
+  color: rgba(128, 128, 128, 0.767);
+}
+
+h3 {
+  color: rgb(0, 0, 255);
+}
+
+/********************************************************************************/
+
+.search {
+  margin: 100px auto 40px auto;
+  position: relative;
+  text-align: center;
+}
+
+.search-bar {
+  height: 42px;
+  width: 380px;
+  border-style: solid;
+  border-width: 1.2px;
+  border-color: rgba(0, 0, 0, 0.363);
+  background-color: rgb(252, 252, 252);
+}
+
+.search-bar:focus {
+  outline-color: rgba(0, 0, 255, 0.63);
+}
+
+#selected {
+  border: 1px solid red;
+  position: absolute;
+  left: 58%;
+  top: 12px;
+}
+
+.search-icon {
+  height: 42px;
+  width: 42px;
+  background-color: rgba(51, 102, 204, 0.945);
+  color: azure;
+  border: none;
+  border-color: rgb(51, 102, 204);
+  position: absolute;
+}
+
+.search-icon-svg {
+  height: 25px;
+  width: 25px;
+}
+
+/***********************************************************************/
+
+.icon--bar {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.btn--icon--bar {
+  position: relative;
+  font-size: 14px;
+  font-weight: 700;
+  height: 40px;
+  width: 350px;
+  text-align: center;
+  color: rgba(6, 60, 167, 0.863);
+  background-color: rgba(156, 151, 151, 0.137);
+  border-width: 1.2px;
+  border-color: rgba(129, 126, 126, 0.623);
+}
+
+.line-1 {
+  position: absolute;
+  top: 50%;
+  left: -105px;
+}
+
+.line-2 {
+  position: absolute;
+  top: 50%;
+  left: 362px;
+}
+
+/* .icon--down {
+  
+} */
+
+#select-- {
+  border: none;
+  position: absolute;
+  top: 12px;
+  left: 720px;
+}
+
+/************************************* Footer *******************************************/
+
+footer {
+  height: 300px;
+  position: relative;
+  margin-top: 50px;
+}
+
+.text--bar--1 {
+  position: absolute;
+  left: 100px;
+}
+
+.icon--1 {
+  position: absolute;
+  top: 10px;
+  left: -70px;
+  height: 50px;
+  width: 50px;
+}
+
+.text--1 {
+  line-height: 20px;
+}
+
+.text--bar--2 {
+  position: absolute;
+  top: 100px;
+  left: 100px;
+}
+
+.text--2 {
+  line-height: 20px;
+}
+
+.icon--2 {
+  position: absolute;
+  top: 20px;
+  left: -70px;
+  height: 50px;
+  width: 50px;
+}
+
+.common--icon {
+  height: 30px;
+  width: 30px;
+  color: #15aabf;
+}
+
+.i-1 {
+  position: absolute;
+  top: 0px;
+  left: 420px;
+}
+
+.i-2 {
+  position: absolute;
+  top: 100px;
+  left: 420px;
+}
+
+.i-3 {
+  position: absolute;
+  top: 200px;
+  left: 420px;
+}
+
+.i-4 {
+  position: absolute;
+  top: 0;
+  left: 720px;
+}
+
+.i-5 {
+  position: absolute;
+  top: 100px;
+  left: 720px;
+}
+
+.i-6 {
+  position: absolute;
+  top: 200px;
+  left: 720px;
+}
+
+.i-7 {
+  position: absolute;
+  top: 0;
+  left: 960px;
+}
+
+.i-8 {
+  position: absolute;
+  top: 100px;
+  left: 960px;
+}
+
+.i-9 {
+  position: absolute;
+  top: 200px;
+  left: 960px;
+}
+
+.f-1 {
+  position: absolute;
+  top: 0px;
+  left: 460px;
+}
+
+.f-2 {
+  position: absolute;
+  top: 100px;
+  left: 460px;
+}
+
+.f-3 {
+  position: absolute;
+  top: 200px;
+  left: 460px;
+}
+
+.f-4 {
+  position: absolute;
+  top: 0px;
+  left: 760px;
+}
+
+.f-5 {
+  position: absolute;
+  top: 100px;
+  left: 760px;
+}
+
+.f-6 {
+  position: absolute;
+  top: 200px;
+  left: 760px;
+}
+
+.f-7 {
+  position: absolute;
+  top: 0px;
+  left: 1000px;
+}
+
+.f-8 {
+  position: absolute;
+  top: 100px;
+  left: 1000px;
+}
+
+.f-9 {
+  position: absolute;
+  top: 200px;
+  left: 1000px;
+}
+
+h4 {
+  color: #1971c2;
+  font-weight: 600;
+}
+
+span {
+  color: rgb(88, 86, 86);
+}
+
+/****************************************************/
+
+.line--hr {
+  box-sizing: content-box;
+  clear: both;
+  height: 0;
+  border-bottom: 1px solid #c8ccd1d8;
+  margin: 0.26rem 1.3rem;
+}
+
+/************************************* Aside *******************************************/
+aside {
+  position: relative;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.aside-- {
+  position: absolute;
+  left: 250px;
+}
+
+.aside--text {
+  color: #1971c2;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+    <style>
+      .image {
+        width: 100%;
+        height: 100vh;
+        background: url(./786427.png) center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+
+      .overlay {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.5);
+      }
+
+      input {
+        height: 50px;
+        width: 50%;
+        font-size: 28px !important;
+        text-align: center;
+        background-color: rgba(255, 255, 255, 0.9);
+        border-color: transparent;
+        border-radius: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="image">
+      <div class="overlay pt-10">
+        <h1 class="font-bold text-[#fff] text-4xl text-center">
+          Bleach Is Coming
+        </h1>
+        <h2 id="btn" class="font-bold text-[#fff] text-4xl text-center">
+          on 20 July 2023
+        </h2>
+        <div class="flex justify-center mt-8 w-[900px]">
+          <div class="text-center">
+            <input type="text" id="days" readonly value="0" />
+            <br />
+            <label class="text-[#fff]">Days</label>
+          </div>
+          <div class="text-center">
+            <input type="text" id="hours" readonly />
+            <br />
+            <label class="text-[#fff]">Hours</label>
+          </div>
+          <div class="text-center">
+            <input type="text" id="minutes" readonly />
+            <br />
+            <label class="text-[#fff]">Minutes</label>
+          </div>
+          <div class="text-center">
+            <input type="text" id="seconds" readonly />
+            <br />
+            <label class="text-[#fff]">Seconds</label>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

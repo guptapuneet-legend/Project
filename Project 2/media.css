@@ -1,0 +1,111 @@
+/*******************************/
+/* BELOW 1200px (Landscape Tablets)*/
+/*******************************/
+
+@media (max-width: 72em) {
+  html {
+    font-size: 56.25%;
+  }
+  .heading-main {
+    padding-bottom: 2rem;
+  }
+  .info {
+    font-size: 1.8rem;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+    line-height: normal;
+    letter-spacing: normal;
+  }
+
+  .black-color {
+    font-size: 2rem;
+  }
+}
+
+/*******************************/
+/* BELOW 944px (Tablets)*/
+/*******************************/
+
+@media (max-width: 59em) {
+  html {
+    font-size: 50%;
+  }
+
+  .img-- {
+    height: 50%;
+    align-self: center;
+  }
+}
+
+/* ************************* */
+/* BELOW 544px (Phones) */
+/**************************/
+@media (max-width: 44em) {
+  .nav-bar {
+    padding: 10px 3rem;
+    margin-bottom: 50px;
+  }
+
+  .left {
+    gap: 0px;
+  }
+
+  .flex {
+    flex-direction: column;
+  }
+
+  .item-2,
+  .item-1 {
+    margin: 1rem 2rem;
+    width: 98%;
+  }
+
+  .flex {
+    gap: 22px;
+  }
+
+  .flex-1 {
+    width: 100%;
+  }
+
+  .info {
+    font-size: 18px;
+  }
+
+  .black-color {
+    font-size: 24px;
+  }
+
+  .s {
+    width: 100%;
+  }
+
+  .flex-- {
+    width: 100%;
+  }
+
+  .text-- {
+    width: 100%;
+  }
+
+  .btn--3 {
+    align-self: center;
+  }
+
+  .footer {
+    flex-direction: row;
+  }
+
+  .section-4 {
+    margin: 50px 4px 30px 4px;
+    padding: 0px;
+  }
+
+  .flex-column {
+    margin: 40px 10px;
+  }
+
+  .btn--2 {
+    width: 100%;
+  }
+}
